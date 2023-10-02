@@ -94,11 +94,30 @@ Ans--Using find command as find . -type f -size +10G
   36* What's k statement in shell script
   37* How to establish password less connection
   38* Shell script for prime numbers for a given range.
+----------------------------------------------------------------------
   39* Linux boot process, 20 linux commands with explanation
+Ans--Linux boot process is a series of steps that occur when a linux based operating system is powered on or is restarted, steps are:
+      1. It initializes the hardware.
+      2. It loads the kernel into memory.
+      3. It starts the system services that are necessary for the operating system to function.
+----------------------------------------------------------------------
   40* Linux commands - related to memory and system ram
   41* which scripting you are comfortable with?
   42* script  to find the port number
-  43* namespaces in Linux 
-  44* linux booting process 
-  45* types linux os you have used and what is package manager for Ubuntu 
-  46* $? and $!
+----------------------------------------------------------------------
+  43* namespaces in Linux
+Ans--Linux namespaces are a feature of the Linux kernel that provides process isolation and resource management.Linux namespaces were introduced to the Linux kernel in version 2.6.24.
+      1. pid Namespace (pid)
+      2. network Namespace (net)
+      3. mount Namespace (mnt)
+----------------------------------------------------------------------
+  44* types linux os you have used and what is package manager for Ubuntu 
+Ans-- Ubuntu and its package manager is apt
+      RHEL and its package manager is yum
+      macOS and its package manager is also yum
+----------------------------------------------------------------------
+  45* $? and $!
+Ans-- $?--Gives the status of the previous executed script.
+      $!--Gives the PID of the process sent to BG
+----------------------------------------------------------------------
+
